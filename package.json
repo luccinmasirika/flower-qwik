@@ -16,6 +16,10 @@
     "start": "npm run dev",
     "typecheck": "tsc --incremental --noEmit"
   },
+  "engines" : { 
+    "npm" : ">=7.0.0",
+    "node" : ">=16.0.0"
+  },
   "devDependencies": {
     "@builder.io/qwik": "0.0.105",
     "@types/eslint": "8.4.6",
